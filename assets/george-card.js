@@ -907,7 +907,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("george-card/app")["default"].create({"fontawesome":{"icons":{"free-solid-svg-icons":"all"}},"name":"george-card","version":"0.0.0+5e30f494"});
+            require("george-card/app")["default"].create({"fontawesome":{"icons":{"free-solid-svg-icons":"all"}},"name":"george-card","version":"0.0.0+733a27ae"});
           }
         
 //# sourceMappingURL=george-card.map
