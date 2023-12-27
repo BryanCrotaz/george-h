@@ -1,0 +1,49 @@
+/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+
+.line {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 20px;
+  justify-content: center;
+  margin: auto;
+  width: 180px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.hole {
+  width: 18px;
+
+  &.small {
+    width: 5px;
+  }
+
+  &:after {
+    content: "\00a0";
+  }
+}
+
+.space {
+  width: 18px;
+
+  &:after {
+    content: "\00a0";
+  }
+}
+
+.title {
+  margin-top: 25%;
+  width: 100vw;
+  text-align: center;
+}
+
+button {
+  width: 20vw;
+  margin-left: 40vw;
+  margin-right: 40vw;
+}
+
+p {
+  width: 100vw;
+  text-align: center;
+}
